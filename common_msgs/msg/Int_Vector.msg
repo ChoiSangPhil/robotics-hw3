@@ -1,3 +1,3 @@
-Int32 num
+Int num
 geometry_msgs/Vector3 vec
 

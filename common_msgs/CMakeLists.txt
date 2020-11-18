@@ -10,7 +10,7 @@ find_package(catkin REQUIRED COMPONENTS
 
 add_message_files(
   FILES
-  intro.msg
+  Int_Vector.msg
 )
 
 generate_messages(
