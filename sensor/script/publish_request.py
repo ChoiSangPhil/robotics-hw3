@@ -23,7 +23,7 @@ while not rospy.is_shutdown():
     print "publish: ", msg.radius, msg.vec.x, msg.vec.y, msg.vec.z
     pub.publish(msg)
     if count % 10 == 0:
-        req = XOR_gateRequest(A=random.randint(0,1), B=random.randint(0,1))
+        req = XORGateRequest(A=random.randint(0,1), B=random.randint(0,1))
         res = requester(req)
         print count, "request:", req.A, req.B, "response:", res.F
     rate.sleep()
