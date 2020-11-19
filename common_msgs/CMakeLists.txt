@@ -13,6 +13,11 @@ add_message_files(
   Coordinate.msg
 )
 
+add_service_files(
+  FILES
+  XORGate.srv
+)
+
 generate_messages(
   DEPENDENCIES
   geometry_msgs
