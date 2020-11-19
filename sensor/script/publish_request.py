@@ -6,7 +6,7 @@ from geometry_msgs.msg import Vector3
 from common_msgs.msg import Coordinate
 from common_msgs.srv import XORGate, XORGateRequest
 
-rospy.init_node('msgs_publish')
+rospy.init_node('HW3')
 requester = rospy.ServiceProxy('xor_gate', XORGate)
 pub = rospy.Publisher('hw3_topic_msg', Coordinate, queue_size=1)
 msg = Coordinate()
