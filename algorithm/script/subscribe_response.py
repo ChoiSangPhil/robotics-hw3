@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import rospy
 from common_msgs.msg import Coordinate
-from common_msgs.srv import XORGate, XORGateRequest
+from common_msgs.srv import XORGate, XORGateResponse
 
 def topic_callback(msg):
     print "subscribe: ", msg.radius, msg.vec.x, msg.vec.y, msg.vec.z
