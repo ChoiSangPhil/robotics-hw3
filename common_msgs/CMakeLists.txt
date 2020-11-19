@@ -15,7 +15,7 @@ add_message_files(
 
 add_service_files(
   FILES
-  XOR_gate.srv
+  XORGate.srv
 )
 
 generate_messages(
